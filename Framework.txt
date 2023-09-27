@@ -1,0 +1,96 @@
+Art By You purpose: 
+
+This is an online non profit website that aims to assist artists to upload their work so others can explore various artists' talents. In other words, its a website that promotes artists from everywhere and could potentially help them gain money of their talent as there might be some people who would admire the art and purchase them. Art by you website consists of multiple pages such as: HomePage(Index.php), About(about.php), Artists(artists.php), Collections(collections_T.php), SignIn(signin.php). Each page functions differently and we will explain it all separately below. 
+
+- HomePage(Index.php):
+
+This is the landing page and it introduces the website Art by you to the users and ask them if they would like to sign up or read more about the website, also it will show the users the featured themes and artists available. 
+
+How did we develop the template?
+
+we adapted the index.html bootstap template by changing some of the navigation bar links, names, and deleted two of them (e.g FAQ). In addition, we changed the button label and the features. 
+
+- About(about.php):
+
+This page provides the user more information about Art by You Page and most importantly the aim of the website. 
+
+How did we develop the template? 
+
+We adapted the about.html bootstrap template by changing some of the navigation bar links, names and deleted two of them(e.g FAQ). In addition, we deleted some of the unnecessary sections to put them into another page. 
+
+- Artists(artists.php):
+
+This page provides the user some information about the art by you team.
+ 
+How did we develop the template?
+ 
+We adapted the about.html bootstrap template by changing some of the naviagtion bar links, names and deleted two of them(e.g FAQ). In addition, we took the "our team" section and deleted the other sections.
+
+- Collections(collections_T.php):
+ 
+This page provides the user some information about the theme collections of the website.
+
+How did we develop the template?
+
+We adapted the index.html bootstrap template by taking from our blog section only and added another three sections and we deleted the other sections and also we changed the navigation bar links, names and deleted two of them(e.g FAQ). 
+
+-SignIn(signin.php):
+
+This page takes the username and password and logs the user into their account. 
+
+How did we develop the template?
+
+We adapted the contact.html bootstrap template by removing some of the inputs and changed the email input to password input and the name to username input and removed the unnecessary sections. Also, we changed the navigation bar links, names and deleted some of them (e.g FAQ). Also we used hashed password to hash it in the database.
+
+-aboutArtists.php:
+
+This page shows information about the artits and their artwork
+
+How did we develop the template? 
+We adapted the about.php for the upper part which provides infromation about the artists and for his artwork we adapted the box widgets from collectionsT.php
+
+-themes.php:
+
+This page shows the theme as a title and displays all the artwork that fit the theme with the artists who the theme belongs to
+
+How did we develop the template? 
+We adapted the collections_T.php page for the themes and the theme name but we made a slight change as we added a link on the name of each theme that belongs to an artist. 
+
+
+-post.php: 
+
+This page helps the artists upload their work. 
+
+How did we develop the template?
+We adapted the post.php page from the signIn.php where we changed the title and added some of the inputs and changed their type. and we developed it so it allows the artist to post their theme even if it is not known as they can create a new one to allow creativity.
+
+-serverlogin.php: 
+This page just sets the database host, username, password, database name so that the file gets included in every code as we will always connect to the database. 
+
+How did we develop the template? 
+Simply by following the instructions on the Assignment 3. 
+
+-createAccount.php:
+This page was adapted from signin.php and post.php. and it helps the user create a new account if they do not have any. Moreover, it has some specific requirement while creating your new password and we used regex to do that.
+
+
+Reference:
+Pictures: Microsoft PowerPoint provided in the previous assignments.
+
+Lorem Ipsum - All the facts - Lipsum generator. (n.d.). https://www.lipsum.com/
+
+Startbootstrap (2022) https://startbootstrap.com/previews/modern-business
+
+PHP Tutorial. (n.d.). https://www.w3schools.com/php/default.asp
+
+W. (n.d.). How to Store Form data in CSV File using PHP. Webslesson. https://www.webslesson.info/2017/09/how-to-store-form-data-in-csv-file-using-php.html
+
+PHP: mysqli_result::fetch_assoc - Manual. (n.d.). https://www.php.net/manual/en/mysqli-result.fetch-assoc.php
+
+How to run a SELECT query using Mysqli. (n.d.). Treating PHP Delusions. https://phpdelusions.net/mysqli_examples/select
+
+B. (2022, September 7). Login and Logout Using Session in PHP and MySQLi - Bipsmedium - Medium. Medium. https://biplabsinha345.medium.com/login-and-logout-using-session-in-php-and-mysqli-ebd5f76c5c94 
+
+S, R. A. (2023, January 29). PHP Login Form: Guide to Create a Login Form in PHP. Simplilearn.com. https://www.simplilearn.com/tutorials/php-tutorial/php-login-form
+
+Majid, A. (2017, October 21). PHP Login Script with Session. Eggs Lab. https://www.eggslab.net/php-login-script/
